@@ -1,0 +1,9 @@
+Nombre del programa: Fracaso.c
+
+Autores: Felipe Rojas - Andres Zapata - Abel Nuñez
+
+Uso: ./Fracaso
+
+Descripcion: Este programa consiste en que cada proceso debe tener un ciclo de vida aleatorio. 
+Es decir no se sabe cuando van a finalizar. Por otra parte el padre debe esperar a todos los hijos creados para continuar su codigo. 
+A grandes rasgos se simulara las consecuencias que puede implicar la programacion concurrente sin tecnicas de sincronizacion.

@@ -1,0 +1,12 @@
+
+Nombre del programa: Hora.c
+
+Autores: Felipe Rojas - Andres Zapata - Abel Nuñez
+
+Uso: ./Hora
+
+Descripcion: Programa que permite imprimir un mensaje por consola mostrando el pid del proceso ejecutandose y que diga "Listo para recibir la señal SIGUSR1."
+Obviamente el pid que se mostrara va a ir variando en donde luego quedara en un ciclo infinito de espera.
+Para que posteriormente cuando llegue la señal SIGUSR1 a la consola actual, gracias al comando que se establece en otra consola independiente se podra imprimir la hora local del sistema.
+
+
